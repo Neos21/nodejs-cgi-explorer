@@ -262,17 +262,16 @@ function detectContentType(extension) {
   
   // 画像系はその場で表示できるようにする
   switch(extension) {
-    case '.bmp' : return 'image/bmp';
+    case '.png' : return 'image/png';
     case '.gif' : return 'image/gif';
+    case '.jpg' :
+    case '.jpeg': return 'image/jpeg';
     case '.svg' : return 'image/svg+xml';
     case '.webp': return 'image/webp';
     case '.ico' : return 'image/vnd.microsoft.icon';
-    case '.jpg' :
-    case '.jpeg':
-      return 'image/jpeg';
+    case '.bmp' : return 'image/bmp';
     case '.tif' :
-    case '.tiff':
-      return 'image/tiff';
+    case '.tiff': return 'image/tiff';
   }
   
   // それ以外の拡張子はファイルダウンロードにする
