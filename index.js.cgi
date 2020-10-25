@@ -43,7 +43,6 @@ function writeHtmlHeader(title) {
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${title}</title>
     <style>
@@ -57,9 +56,7 @@ html {
   overflow-y: scroll;
   cursor: default;
   text-decoration-skip-ink: none;
-  -webkit-text-size-adjust: 100%;
   -webkit-text-decoration-skip: objects;
-  -webkit-overflow-scrolling: touch;
 }
 
 body {
