@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /*!
- * Node.js CGI Explorer : Neo (http://neo.s21.xrea.com/)
+ * Node.js CGI Explorer : Neo (https://neos21.net/)
  * 
  * - 1行目の Shebang を node (node.exe) の実行パスに編集してください (#!/usr/bin/node など)
  * - 本ファイルに実行権限を付与してください
